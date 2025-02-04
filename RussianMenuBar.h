@@ -11,4 +11,3 @@ const QString quitNameStr = "Выход";
 
 \\Текст меню "Правка"
 const QString editMenuNameStr = "Правка";
-const
