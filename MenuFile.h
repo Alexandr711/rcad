@@ -13,4 +13,15 @@ class MenuFile: public QMenu
     QAction* openProjectAction;
 
     QActon* quitAction;
+
+  private:
+    void createMenuBar();
+    void createCreateFileAction();
+    void createOpenFileAction();
+    void createCreateProjectAction();
+    void createOpenProjectAction();
+
+    void createQuitAction();
+
+    void cleanup();
 }
