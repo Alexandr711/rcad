@@ -7,5 +7,10 @@ class MenuFile: public QMenu
     MenuFile();
 
   private:
+    QAction* createFileAction;
+    QAction* openFileAction;
+    QAction* createProjectAction;
+    QAction* openProjectAction;
 
+    QActon* quitAction;
 }
