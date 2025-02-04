@@ -1,3 +1,6 @@
 #include <QMenu>
 
-class MenuFile: QMenu
+class MenuFile: public QMenu
+{
+
+}
